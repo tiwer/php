@@ -32,38 +32,14 @@ class Pinyin{
 		array (			"cha",			-19739		),
 		array (			"chai",			-19728		),
 		array (			"chan",			-19725		),
-		array (
-			"chang",
-			-19715
-		),
-		array (
-			"chao",
-			-19540
-		),
-		array (
-			"che",
-			-19531
-		),
-		array (
-			"chen",
-			-19525
-		),
-		array (
-			"cheng",
-			-19515
-		),
-		array (
-			"chi",
-			-19500
-		),
-		array (
-			"chong",
-			-19484
-		),
-		array (
-			"chou",
-			-19479
-		),
+		array (			"chang",		-19715		),
+		array (			"chao",			-19540		),		
+		array (			"che",			-19531		),
+		array (			"chen",			-19525		),
+		array (			"cheng",		-19515		),
+		array (			"chi",			-19500		),
+		array (			"chong",		-19484		),
+		array (			"chou",			-19479		),
 		array (
 			"chu",
 			-19467
