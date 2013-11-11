@@ -1,284 +1,105 @@
 <?php
 class Pinyin{
 	private $d = array (
-		array (			"a",			-20319		),
-		array (			"ai",			-20317		),
-		array (			"an",			-20304		),
-		array (			"ang",			-20295		),
-		array (			"ao",			-20292		),
-		array (			"ba",			-20283		),
-		array (			"bai",			-20265		),
-		array (			"ban",			-20257		),
-		array (			"bang",			-20242		),
-		array (			"bao",			-20230		),
-		array (			"bei",			-20051		),
-		array (			"ben",			-20036		),
-		array (			"beng",			-20032		),
-		array (			"bi",			-20026		),
-		array (			"bian",			-20002		),
-		array (			"biao",			-19990		),
-		array (			"bie",			-19986		),
-		array (			"bin",			-19982		),
-		array (			"bing",			-19976		),
-		array (			"bo",			-19805		),
-		array (			"bu",			-19784		),
-		array (			"ca",			-19775		),
-		array (			"cai",			-19774		),
-		array (			"can",			-19763		),
-		array (			"cang",			-19756		),
-		array (			"cao",			-19751		),
-		array (			"ce",			-19746		),
-		array (			"ceng",			-19741		),
-		array (			"cha",			-19739		),
-		array (			"chai",			-19728		),
-		array (			"chan",			-19725		),
-		array (			"chang",		-19715		),
-		array (			"chao",			-19540		),		
-		array (			"che",			-19531		),
-		array (			"chen",			-19525		),
-		array (			"cheng",		-19515		),
-		array (			"chi",			-19500		),
-		array (			"chong",		-19484		),
-		array (			"chou",			-19479		),
-		array (
-			"chu",
-			-19467
-		),
-		array (
-			"chuai",
-			-19289
-		),
-		array (
-			"chuan",
-			-19288
-		),
-		array (
-			"chuang",
-			-19281
-		),
-		array (
-			"chui",
-			-19275
-		),
-		array (
-			"chun",
-			-19270
-		),
-		array (
-			"chuo",
-			-19263
-		),
-		array (
-			"ci",
-			-19261
-		),
-		array (
-			"cong",
-			-19249
-		),
-		array (
-			"cou",
-			-19243
-		),
-		array (
-			"cu",
-			-19242
-		),
-		array (
-			"cuan",
-			-19238
-		),
-		array (
-			"cui",
-			-19235
-		),
-		array (
-			"cun",
-			-19227
-		),
-		array (
-			"cuo",
-			-19224
-		),
-		array (
-			"da",
-			-19218
-		),
-		array (
-			"dai",
-			-19212
-		),
-		array (
-			"dan",
-			-19038
-		),
-		array (
-			"dang",
-			-19023
-		),
-		array (
-			"dao",
-			-19018
-		),
-		array (
-			"de",
-			-19006
-		),
-		array (
-			"deng",
-			-19003
-		),
-		array (
-			"di",
-			-18996
-		),
-		array (
-			"dian",
-			-18977
-		),
-		array (
-			"diao",
-			-18961
-		),
-		array (
-			"die",
-			-18952
-		),
-		array (
-			"ding",
-			-18783
-		),
-		array (
-			"diu",
-			-18774
-		),
-		array (
-			"dong",
-			-18773
-		),
-		array (
-			"dou",
-			-18763
-		),
-		array (
-			"du",
-			-18756
-		),
-		array (
-			"duan",
-			-18741
-		),
-		array (
-			"dui",
-			-18735
-		),
-		array (
-			"dun",
-			-18731
-		),
-		array (
-			"duo",
-			-18722
-		),
-		array (
-			"e",
-			-18710
-		),
-		array (
-			"en",
-			-18697
-		),
-		array (
-			"er",
-			-18696
-		),
-		array (
-			"fa",
-			-18526
-		),
-		array (
-			"fan",
-			-18518
-		),
-		array (
-			"fang",
-			-18501
-		),
-		array (
-			"fei",
-			-18490
-		),
-		array (
-			"fen",
-			-18478
-		),
-		array (
-			"feng",
-			-18463
-		),
-		array (
-			"fo",
-			-18448
-		),
-		array (
-			"fou",
-			-18447
-		),
-		array (
-			"fu",
-			-18446
-		),
-		array (
-			"ga",
-			-18239
-		),
-		array (
-			"gai",
-			-18237
-		),
-		array (
-			"gan",
-			-18231
-		),
-		array (
-			"gang",
-			-18220
-		),
-		array (
-			"gao",
-			-18211
-		),
-		array (
-			"ge",
-			-18201
-		),
-		array (
-			"gei",
-			-18184
-		),
-		array (
-			"gen",
-			-18183
-		),
-		array (
-			"geng",
-			-18181
-		),
-		array (
-			"gong",
-			-18012
-		),
-		array (
-			"gou",
-			-17997
-		),
-		array (
-			"gu",
-			-17988
-		),
-		array (
-			"gua",
-			-17970
+		array (	"a",			-20319	),
+		array (	"ai",			-20317	),
+		array (	"an",			-20304	),
+		array (	"ang",			-20295	),
+		array (	"ao",			-20292	),
+		array (	"ba",			-20283	),
+		array (	"bai",			-20265	),
+		array (	"ban",			-20257	),
+		array (	"bang",			-20242	),
+		array (	"bao",			-20230	),
+		array (	"bei",			-20051	),
+		array (	"ben",			-20036	),
+		array (	"beng",			-20032	),
+		array (	"bi",			-20026	),
+		array (	"bian",			-20002	),
+		array (	"biao",			-19990	),
+		array (	"bie",			-19986	),
+		array (	"bin",			-19982	),
+		array (	"bing",			-19976	),
+		array (	"bo",			-19805	),
+		array (	"bu",			-19784	),
+		array (	"ca",			-19775	),
+		array (	"cai",			-19774	),
+		array (	"can",			-19763	),
+		array (	"cang",			-19756	),
+		array (	"cao",			-19751	),
+		array (	"ce",			-19746	),
+		array (	"ceng",			-19741	),
+		array (	"cha",			-19739	),
+		array (	"chai",			-19728	),
+		array (	"chan",			-19725	),
+		array (	"chang",		-19715	),
+		array (	"chao",			-19540	),		
+		array (	"che",			-19531	),
+		array (	"chen",			-19525	),
+		array (	"cheng",		-19515	),
+		array (	"chi",			-19500	),
+		array (	"chong",		-19484	),
+		array (	"chou",			-19479	),
+		array (			"chu",			-19467		),
+		array (			"chuai",		-19289		),
+		array (			"chuan",		-19288		),
+		array (			"chuang",		-19281		),
+		array (			"chui",			-19275		),
+		array (			"chun",			-19270		),
+		array (			"chuo",			-19263		),
+		array (			"ci",			-19261		),
+		array (			"cong",			-19249		),
+		array (			"cou",			-19243		),
+		array (			"cu",			-19242		),
+		array (			"cuan",			-19238		),
+		array (			"cui",			-19235		),
+		array (			"cun",			-19227		),
+		array (			"cuo",			-19224		),
+		array (			"da",			-19218		),
+		array (			"dai",			-19212		),
+		array (			"dan",			-19038		),
+		array (			"dang",			-19023		),
+		array (			"dao",			-19018		),
+		array (			"de",			-19006		),
+		array (			"deng",			-19003		),
+		array (			"di",			-18996		),
+		array (			"dian",			-18977		),
+		array (			"diao",			-18961		),
+		array (			"die",			-18952		),
+		array (			"ding",			-18783		),
+		array (			"diu",			-18774		),
+		array (			"dong",			-18773		),
+		array (			"dou",			-18763		),
+		array (			"du",			-18756		),
+		array (			"duan",			-18741		),
+		array (			"dui",			-18735		),
+		array (			"dun",			-18731		),
+		array (			"duo",			-18722		),
+		array (			"e",			-18710		),
+		array (			"en",			-18697		),
+		array (			"er",			-18696		),
+		array (			"fa",			-18526		),
+		array (			"fan",			-18518		),
+		array (			"fang",			-18501		),
+		array (			"fei",			-18490		),
+		array (			"fen",			-18478		),
+		array (			"feng",			-18463		),
+		array (			"fo",			-18448		),
+		array (			"fou",			-18447		),
+		array (			"fu",			-18446		),
+		array (			"ga",			-18239		),
+		array (			"gai",			-18237		),
+		array (			"gan",			-18231		),
+		array (			"gang",			-18220		),
+		array (			"gao",			-18211		),
+		array (			"ge",			-18201		),
+		array (			"gei",			-18184		),
+		array (			"gen",			-18183		),
+		array (			"geng",			-18181		),
+		array (			"gong",			-18012		),
+		array (			"gou",			-17997		),
+		array (			"gu",			-17988		),
+		array (			"gua",			-17970
 		),
 		array (
 			"guai",
@@ -1300,68 +1121,56 @@ class Pinyin{
 			"yo",
 			-11340
 		),
-		array (
-			"yong",
-			-11339
+		array (			"yong",			-11339
 		),
-		array (
-			"you",
-			-11324
-		),
-		array (
-			"yu",
-			-11303
-		),
-		array (
-			"yuan",
-			-11097
-		),
-		array (
-			"yue",
-			-11077
-		),
-		array (
-			"yun",
-			-11067
-		),
-		array (			"za",			-11055		),
-		array (			"zai",			-11052		),
-		array (			"zan",			-11045		),
-		array (			"zang",			-11041		),
-		array (			"zao",			-11038		),
-		array (			"ze",			-11024		),
-		array (			"zei",			-11020		),
-		array (			"zen",			-11019		),
-		array (			"zeng",			-11018		),
-		array (			"zha",			-11014		),
-		array (			"zhai",			-10838		),
-		array (			"zhan",			-10832		),
-		array (			"zhang",		-10815		),
-		array (			"zhao",			-10800		),
-		array (			"zhe",			-10790		),
-		array (			"zhen",			-10780		),
-		array (			"zheng",		-10764		),
-		array (			"zhi",			-10587		),
-		array (			"zhong",		-10544		),
-		array (			"zhou",			-10533		),
-		array (			"zhu",			-10519		),
-		array (			"zhua",			-10331		),
-		array (			"zhuai",		-10329		),
-		array (			"zhuan",		-10328		),
-		array (			"zhuang",		-10322		),
-		array (	"zhui",	-10315),
-		array (	"zhun",	-10309),
-		array (	"zhuo",	-10307),
-		array (	"zi",	-10296),
-		array (	"zong",	-10281),
-		array (	"zou",	-10274),
-		array (	"zu",	-10270),
-		array (	"zuan",	-10262),
-		array (	"zui",	-10260),
-		array ( "zun",	-10256),
-		array (	"zuo",	-10254)
+		array (			"you",			-11324		),
+		array (			"yu",			-11303		),
+		array (			"yuan",			-11097		),
+		array (			"yue",			-11077		),
+		array (			"yun",			-11067		),
+		array (	"za",		-11055	),
+		array (	"zai",		-11052	),
+		array (	"zan",		-11045	),
+		array (	"zang",		-11041	),
+		array (	"zao",		-11038	),
+		array (	"ze",		-11024	),
+		array (	"zei",		-11020	),
+		array (	"zen",		-11019	),
+		array (	"zeng",		-11018	),
+		array (	"zha",		-11014	),
+		array (	"zhai",		-10838	),
+		array (	"zhan",		-10832	),
+		array (	"zhang",	-10815	),
+		array (	"zhao",		-10800	),
+		array (	"zhe",		-10790	),
+		array (	"zhen",		-10780	),
+		array (	"zheng",	-10764	),
+		array (	"zhi",		-10587	),
+		array (	"zhong",	-10544	),
+		array (	"zhou",		-10533	),
+		array (	"zhu",		-10519	),
+		array (	"zhua",		-10331	),
+		array (	"zhuai",	-10329	),
+		array (	"zhuan",	-10328	),
+		array (	"zhuang",	-10322	),
+		array (	"zhui",		-10315  ),
+		array (	"zhun",		-10309  ),
+		array (	"zhuo",		-10307  ),
+		array (	"zi",		-10296  ),
+		array (	"zong",		-10281  ),
+		array (	"zou",		-10274  ),
+		array (	"zu",		-10270  ),
+		array (	"zuan",		-10262  ),
+		array (	"zui",		-10260  ),
+		array ( "zun",		-10256  ),
+		array (	"zuo",		-10254  )
 	);
+	
+	
+	
 
+	
+	
 	function g($num) {
 		if ($num > 0 && $num < 160) {
 			return chr($num);
